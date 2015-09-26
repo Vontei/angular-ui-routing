@@ -1,4 +1,4 @@
-var app = angular.module("not-angry-angular", ['ui.router'])
+var app = angular.module("not-angry-angular", ['ui.router','angularModalService'])
 app.config(function($stateProvider, $urlRouterProvider) {
 
   $urlRouterProvider.otherwise("/home");
