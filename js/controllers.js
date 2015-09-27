@@ -1,4 +1,3 @@
-
 app.controller('ModalController', function($scope, ModalService) {
 
     $scope.show = function() {
@@ -15,10 +14,10 @@ app.controller('ModalController', function($scope, ModalService) {
 
 });
 
-app.controller('ModalController', function($scope, close) {
 
- $scope.close = function(result) {
- 	close(result, 500); 
- };
+
+
+app.controller('displayPicsController', function($scope){
+  $scope.message ='hello';
 
 });
